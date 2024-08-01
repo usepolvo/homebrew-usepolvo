@@ -3,8 +3,8 @@ class Usepolvo < Formula
 
   desc "An all-in-one integration CLI package."
   homepage "https://github.com/usepolvo/usepolvo-cli"
-  url "https://github.com/usepolvo/usepolvo-cli/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "0421f2bcafcad569704e72fef7e3d3154a3b47e779e8a1534fde6003ef8da1a8"
+  url "https://github.com/usepolvo/usepolvo-cli/archive/refs/tags/v0.1.6.tar.gz"
+  sha256 "2b2e763c076ffaf28b5def40d2686f52968e15f4bbcdc297a74d40343fb63c17"
   license "MIT"
 
   depends_on "python@3.9"
@@ -15,8 +15,8 @@ class Usepolvo < Formula
   end
 
   resource "usepolvo" do
-    url "https://test-files.pythonhosted.org/packages/f3/43/5fcba2d08fd2c0afe44d2759f83dfd7d15af6c95f0b58342239295afaa63/usepolvo-0.1.17.tar.gz"
-    sha256 "a326e1d8fe4cb47db3d2d268dee6ce36021e172bda64d7002de77bb47e46d1c1"
+    url "https://files.pythonhosted.org/packages/02/44/c6a0472b6dfe2fe9e46da45f2bb8a90e8d6396fd06d63a038032b0c92f2a/usepolvo-0.1.16.tar.gz"
+    sha256 "b3064a35807dcf6738aecc3c60856ba8013d1735fe94efb19fd9f40704121722"
   end
 
   resource "python-dotenv" do
