@@ -19,6 +19,11 @@ class Usepolvo < Formula
     sha256 "b3064a35807dcf6738aecc3c60856ba8013d1735fe94efb19fd9f40704121722"
   end
 
+  resource "stripe" do
+    url "https://files.pythonhosted.org/packages/bb/da/bd8c4be9099fea125fb44fe88a17b4dddd9e20506c3ee46fd47090a1ffef/stripe-10.5.0.tar.gz"
+    sha256 "4e7966a2bba0095354ae00d6dc352c2b58646f1ac258a9c28bf56973ae102bb1"
+  end
+
   resource "python-dotenv" do
     url "https://files.pythonhosted.org/packages/bc/57/e84d88dfe0aec03b7a2d4327012c1627ab5f03652216c63d49846d7a6c58/python-dotenv-1.0.1.tar.gz"
     sha256 "e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca"
