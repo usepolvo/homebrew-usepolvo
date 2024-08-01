@@ -20,7 +20,10 @@ class Usepolvo < Formula
     end
   
     def install
-      virtualenv_install_with_resources
+      # Change to the src directory before installing
+      cd "src" do
+        virtualenv_install_with_resources
+      end
     end
   
     test do
