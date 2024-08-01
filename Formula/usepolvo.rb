@@ -2,21 +2,21 @@ class Usepolvo < Formula
     include Language::Python::Virtualenv
   
     desc "An all-in-one integration CLI package."
-    homepage "https://github.com/yourusername/usepolvo-cli"
-    url "https://github.com/yourusername/usepolvo-cli/archive/refs/tags/v0.1.0.tar.gz"
-    sha256 "your_tarball_checksum"
+    homepage "https://github.com/usepolvo/usepolvo-cli"
+    url "https://github.com/usepolvo/usepolvo-cli/archive/refs/tags/v0.1.0.tar.gz"
+    sha256 "YOUR_TARBALL_SHA256"
     license "MIT"
   
     depends_on "python@3.9"
   
     resource "click" do
-      url "https://files.pythonhosted.org/packages/ed/44/0ac619e56ba4db3b4ee5aaebeb4419b0fca96301337e6b5e25c809beae65/click-8.1.7.tar.gz"
-      sha256 "9d82863b06dcb293377ffb74a6fd8d8aef14d61f6552729dcac875a8a1c0a809"
+      url "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz"
+      sha256 "ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
     end
   
     resource "usepolvo" do
-      url "https://test-files.pythonhosted.org/packages/your/package/path/usepolvo-0.1.17.tar.gz"
-      sha256 "your_usepolvo_tarball_checksum"
+      url "https://test-files.pythonhosted.org/packages/f3/43/5fcba2d08fd2c0afe44d2759f83dfd7d15af6c95f0b58342239295afaa63/usepolvo-0.1.17.tar.gz"
+      sha256 "a326e1d8fe4cb47db3d2d268dee6ce36021e172bda64d7002de77bb47e46d1c1"
     end
   
     def install
