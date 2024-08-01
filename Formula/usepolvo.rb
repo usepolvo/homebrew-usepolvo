@@ -3,8 +3,8 @@ class Usepolvo < Formula
 
   desc "An all-in-one integration CLI package."
   homepage "https://github.com/usepolvo/usepolvo-cli"
-  url "https://github.com/usepolvo/usepolvo-cli/archive/refs/tags/v0.1.8.tar.gz"
-  sha256 "2b13b7e9d27d769d4ce41d2fdeff431faece4a68f98a29bc9de19c49afea6e3a"
+  url "https://github.com/usepolvo/usepolvo-cli/archive/refs/tags/v0.1.9.tar.gz"
+  sha256 "03fad6e9fb484b91912d0c17a109b1c96edddd4e6437db4855fd841f0f50d39c"
   license "MIT"
 
   depends_on "python@3.9"
