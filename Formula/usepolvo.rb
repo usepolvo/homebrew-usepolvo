@@ -2,8 +2,8 @@ class Usepolvo < Formula
     include Language::Python::Virtualenv
   
     desc "An all-in-one integration CLI package."
-    homepage "https://github.com/usepolvo/usepolvo-cli"
-    url "https://github.com/usepolvo/usepolvo-cli/archive/refs/tags/v0.1.4.tar.gz"
+    homepage "https://github.com/usepolvo/usepolvo-cli-package"
+    url "https://github.com/usepolvo/usepolvo-cli-package/archive/refs/tags/v0.1.4.tar.gz"
     sha256 "10f072575ed5088221e5b311fe93c4d7281a881b15c148df111371f986c35f88"
     license "MIT"
   
